@@ -3,8 +3,7 @@ name: DotnetCoreApp-CICD-Test
 trigger:
  - master
 
-pool:
- VmImage: 'ubuntu-latest'
+pool: Default
 
 steps:
   - task: DotNetCoreCLI@2
