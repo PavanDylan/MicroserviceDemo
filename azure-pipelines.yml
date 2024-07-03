@@ -33,6 +33,7 @@ steps:
     projects: '**/*Test.csproj'
     arguments: '--no-restore'
     displayName: 'Unit-Testing'
+    
 - task: DotNetCoreCLI@2
   inputs:
     command: 'publish'
