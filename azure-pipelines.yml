@@ -9,7 +9,7 @@ steps:
   - task: DotNetCoreCLI@2
     inputs:
       command: 'restore'
-      projects: '**/*.csproj'
+      projects: '**/CustomerApi.csproj'
       feedsToUse: 'select'
     displayName: restore
   - task: DotNetCoreCLI@2
