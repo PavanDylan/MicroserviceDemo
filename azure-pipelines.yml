@@ -26,7 +26,7 @@ steps:
     inputs:
       command: 'publish'
       publishWebProjects: true
-      projects: '**/CustomerApi.csproj'
+      projects: '**/azure-pipelines.yml'
       arguments: '--configuration $(buildConfiguration) --no restore'
       zipAfterPublish: true
     displayName: Publishing
